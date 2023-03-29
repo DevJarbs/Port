@@ -1,1 +1,439 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-color: rgb(17, 49, 75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    overflow-x: hidden;
+}
+.mainbtn{
+    margin: 7px;
+    position: fixed;
+    left: 700px;
+}
+.btn{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(31, 82, 115);
+    float: right;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    padding: 8px;
+    border: solid rgb(118, 118, 207) 1px;
+    border-radius: 80px;
+    position: relative;
+    top: -100px;
+    left: -30px;
+}
+.btn:hover{
+    background-color: rgb(22, 123, 136);
+    color:white;
+    border-radius: 50px;
+}
+.welcome{
+    position: relative;
+    top: 130px;
+    left: 500px;
+}
+.wel{
+    font-size: 150px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: rgb(41, 94, 158);
+}
+.come{
+    font-size: 150px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: rgb(79, 120, 170);
+    position: relative;
+    top: -240px;
+    left: 230px;
+    width: 373px;
+    border: solid purple 1px;
+}
+.greet{
+    font-size: 30px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    color: rgb(210, 219, 232);
+    position: relative;
+    top: -200px;
+    left: 500px;
+}
+.by{
+    position: relative;
+    top: -210px;
+    left: 650px;
+    font-family: "Papyrus";
+    font-size: 15px;
+}
+.Portfolio{
+    font-family: sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 330px;
+    color: rgb(17, 52, 107);
+}
+.back{
+    position: relative;
+    top: -750px;
+    left: -60px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid navy;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+.back:hover{
+    background-color: rgb(22, 123, 136);
+    color:white;
 
+}
+#about{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(78, 68, 147);
+}
+.partner{
+    position: relative;
+    top: -10px;
+    left: 50px;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid rgb(111, 138, 200) 2px;
+    margin-right: 136px;
+    opacity: 0.8;
+}
+.jescon{
+    position: relative;
+    left: 10px;
+    border: solid rgb(145, 156, 188) 1px;
+    width: 350px;
+    border-radius: 30px;
+    height: 390px;
+}
+.jesdata{
+    color: rgb(100, 125, 192);
+    font-size: 20px;
+}
+.jesinfo{
+    color: rgb(155, 168, 205);
+    font-size: 20px;
+}
+
+.jarbcon{
+    position: relative;
+    left: 420px;
+    top: -395px;
+    border: solid rgb(145, 156, 188) 1px;
+    width: 350px;
+    height: 395px;
+    border-radius: 30px;
+}
+.jardata{
+    color: rgb(100, 125, 192);
+    font-size: 20px;
+}
+.jarinfo{
+    color: rgb(155, 168, 205);
+    font-size: 20px;
+}
+.txtabt{
+    position: relative;
+    top: -256%;
+    left: 280%;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgb(177, 189, 234);
+}
+.jarv{
+    font-family: sans-serif;
+    background-color: rgb(166, 151, 233);
+    color: purple;
+}
+.jes{
+    font-family: sans-serif;
+    background-color: rgb(166, 151, 233);
+    color: purple;
+}
+#activities{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(78, 68, 147);
+    position: relative;
+    top: -880px;
+}
+.picact{
+    text-decoration: none;
+}
+.meact{
+    background-image: url(../img/5U6O.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(64, 40, 64);
+    border-radius: 30px;
+    position: relative;
+    top: -800px;
+    left: 10px;
+    padding: 50px 50px 50px;
+}
+.me2{
+    border-radius: 50px;
+    border: 3px solid rgb(152, 145, 113);
+    object-fit: cover;
+    height: 180px;
+    position: relative;
+    top: -35px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+}
+.metribtxt{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(94, 83, 22);
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 18px;
+    background-color: peachpuff;
+    border-radius: 50px;
+}
+.tribtxt{
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: -70px;
+}
+.meact:hover{
+      border-radius: 50%;
+      padding: 20vh 20px 20%;
+      display: flex;
+      justify-content: center;
+      cursor: context-menu;
+}
+.meresume{
+    background-image: url(../img/day-12-wheat.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(64, 40, 64);
+    border-radius: 30px;
+    position: relative;
+    top: -1288px;
+    left: 370px;
+    padding: 50px 50px 50px;
+}
+.resumetxt{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(53, 45, 45);
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 18px;
+}
+.resumetxt{
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: -70px;
+}
+.meresume:hover{
+    border-radius: 50%;
+    padding: 20vh 20px 20%;
+    display: flex;
+    justify-content: center;
+    cursor: context-menu;
+}
+.jestribcon{
+    background-image: url(../img/demon-slayer-chibi.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(64, 40, 64);
+    border-radius: 30px;
+    position: relative;
+    top: -1775px;
+    left: 730px;
+    padding: 40px 40px 40px;
+    height: 395px;
+}
+.jespic{
+    text-decoration: none;
+}
+.jespro{
+    border-radius: 50px;
+    border: 3px solid rgb(152, 145, 113);
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: -35px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+}
+.jestribcon:hover{
+    border-radius: 50%;
+    padding: 20vh 20px 20%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    cursor: context-menu;
+}
+.jestribtxt{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(192, 43, 43);
+    background-color: peachpuff;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 18px;
+    border-radius: 50px;
+}
+.jestxt{
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 46px;
+    left: -70px;
+}
+.jesrescon{
+    background-image: url(../img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(149, 81, 149);
+    border-radius: 30px;
+    position: relative;
+    top: -2260px;
+    left: 1090px;
+    padding: 40px 40px 40px;
+    height: 395px;
+}
+.jesrescon:hover{
+    border-radius: 50%;
+    padding: 20vh 20px 20%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    cursor: context-menu;
+}
+#contact{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(78, 68, 147);
+    height: 100px;
+}
+.contactcon{
+    position: relative;
+    top: -2000px;
+}
+.fblogo{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -1880px;
+    left: 680px;
+}
+.ourfb{
+    position: relative;
+    top: -1900px;
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ourfb:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gmailogo1{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -1800px;
+    left: 425px;
+}
+.gmailacc1{
+    position: relative;
+    top: -1860px;
+    left: 750px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gmailacc2{
+    position: relative;
+    top: -1880px;
+    left: 750px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gmailacc1:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gmailacc2:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contactlogo{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -1800px;
+    left: 418px;
+}
+.conum{
+    position: relative;
+    top: -1850px;
+    left: 752px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.cpclogo{
+    object-fit: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px blue;
+    position: relative;
+    top: -2050px;
+    left: 300px;
+}

@@ -1,1 +1,176 @@
-
+body{
+   background-color: rgb(82, 62, 62);
+   overflow-x: hidden;
+}
+.resumepic{
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    border: 2px solid peachpuff;
+    border-radius: 100px;
+}
+.resumetop{
+    font-size: 50px;
+    font-family: sans-serif;
+    position: relative;
+    top: -150px;
+    left: 330px;
+}
+.resumetop2{
+    font-family: sans-serif;
+    position: relative;
+    top: -180px;
+    left: 336px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.resumebot{
+    font-size: 15px;
+    font-family: cursive;
+    position: relative;
+    top: -170px;
+    left: 330px;
+}
+.personalinfocon{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 100px;
+    top: -70px;
+}
+.perdata{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 20px;
+}
+.perinfo{
+   color: rgb(206, 183, 163);
+   font-weight: lighter;
+   font-family: monospace;
+}
+.resumeexpcon{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 860px;
+    height: auto;
+    position: relative;
+    top: -565px;
+    left: 610px;
+}
+.exphead{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    border-top: 1px solid peachpuff;
+    border-bottom: 1px solid peachpuff;
+    width: 800px;
+}
+.expcom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 115px;
+}
+.expsub{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    left: 35px;
+    top: -20px;
+}
+.exp{
+    font-family: monospace;
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+.edcom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 68px;
+}
+.freecom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 255px;
+}
+.educom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 255px;
+}
+.eduhscom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 290px;
+}
+.awardcom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 70px;
+}
+.actcom{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: peachpuff;
+    width: 235px;
+    top: -10px;
+}
+.back2home{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(20, 40, 53);
+    float: right;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    padding: 8px;
+    border: solid rgb(15, 15, 50) 1px;
+    border-radius: 80px;
+    position: relative;
+    left: -80px;
+}
+.back2home:hover{
+    background-color: rgb(22, 123, 136);
+    color:white;
+    border-radius: 50px;
+}

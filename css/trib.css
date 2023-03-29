@@ -1,1 +1,95 @@
-
+body{
+    background-color: rgb(30, 116, 151);
+    background-image: url(../img/odabg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.picon{
+    position: relative;
+    top: -140px;
+    left: 250px;
+}
+.oda{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.odacon{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+}
+.odaname{
+    font-family: monospace;
+    font-size: 65px;
+    font-weight: bold;
+    color: orange;
+    position: relative;
+    left: 300px;
+    top: -50px;
+}
+.odatribcon{
+    background-color: peachpuff;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: relative;
+    top: -550px;
+    left: 700px;
+    width: 40%;
+    height: 118%;
+    padding: 50px 50px 50px;
+    opacity: 0.7;
+}
+.odatrib{
+    position: relative;
+    top: -50px;
+}
+.odaawards{
+    font-family: fantasy;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+}
+.odaaw{
+    position: relative;
+    top: -35px;
+}
+.opcon{
+    position: relative;
+    top: -150px;
+    left: 230px;
+}
+.op{
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+    color: gold;
+}
+.back2home{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(56, 115, 155);
+    float: right;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    padding: 8px;
+    border: solid rgb(181, 181, 231) 1px;
+    border-radius: 80px;
+    position: relative;
+    left: -80px;
+}
+.back2home:hover{
+    background-color: rgb(22, 123, 136);
+    color:white;
+    border-radius: 50px;
+}
+.email{
+    font-size: 50px;
+}
